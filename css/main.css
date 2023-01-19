@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: black;
 }
 
 .main{
@@ -21,7 +22,9 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
+    height: 10vh;
     border: 2px solid red;        
 }
 
@@ -33,6 +36,65 @@ body{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+
+.ul_menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul_menu a:hover{
+    text-decoration: underline;
+    text-decoration-color: #961914;
+}
+
+.main-text *{
+    border: 1px solid blue;
+}
+
+.main-text{
+    border: 2px solid red; 
+    width: 60vh;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #fff;
+    margin-right: 800px;
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.main-text h1{
+    margin: 0;
+    font-size: 54px;
+}
+
+.ellips{
+    position: relative;
+    background-image: url(/assets/img/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    display: inline;
+    height: 10vh;
+    width: 40vh;
+}
+
+.eat-button{
+    width: 40vh;
+    height: 5vh;
+    color: #fff;
+    background-color: #961914;
+}
+
+.zooov-stroke{
+    border: solid 2px green;
+    /* display: flex;
+    justify-content: left;
+    align-items: flex-start; */
+    margin-left: 155vh;
+    /* margin-top: 400px; */
 }
 
 
