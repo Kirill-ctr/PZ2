@@ -7,12 +7,32 @@ body{
 }
 
 .main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     height: 100vh;
     background-image: url(/assets/img/Header_BG.png);
     background-repeat: no-repeat; 
 }
 
 .header{
-    width: 90vh;
-    border: 2px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: 2px solid red;        
 }
+
+.header__nav{
+    width: 60%;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
