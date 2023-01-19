@@ -1,0 +1,18 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(/assets/img/Header_BG.png);
+    background-repeat: no-repeat; 
+}
+
+.header{
+    width: 90vh;
+    border: 2px;
+}
