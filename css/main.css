@@ -1,17 +1,27 @@
 HEADER{
+    display: flex;
     width: auto;
     height: 800px;
     background-image: url(/assets/img/Header_BG.png);
 }
 
+.nav{
+    display: flex;
+}
+
 .navbar li{
     list-style-type: none;
-    display: inline;
+    display: flex;
+    display: inline-flex;
     margin-right: 50px;
 }
 
+.nav-menu{
+    display: flex;
+}
 
-.navbar li:nth-child(2){
+
+/* .navbar li:nth-child(2){
     margin-left: 350px;
 } 
 
@@ -19,7 +29,7 @@ HEADER{
 .navbar ul:first-child{
     margin-left: 120px;
     margin-top: 15px;
-}
+} */
 
 .navbar a{
     padding-top: 45px;
@@ -32,7 +42,7 @@ HEADER{
 
 
 .navbar a:hover{
-    color: #000;
+    color: #fff ;
     border-bottom: 1px solid #961914;
 }
 
