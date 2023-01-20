@@ -4,8 +4,9 @@
 
 body{
     margin: 0;
-    background-color: black;
 }
+
+/* Блок №1 "Стартовый блок с шапкой" */
 
 .main{
     position: relative;
@@ -24,8 +25,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    height: 10vh;
-    border: 2px solid red;        
+    height: 10vh;       
 }
 
 .header__nav{
@@ -48,18 +48,16 @@ body{
     text-decoration-color: #961914;
 }
 
-.main-text *{
-    border: 1px solid blue;
-}
+
 
 .main-text{
-    border: 2px solid red; 
-    width: 60vh;
-    height: 60vh;
+    /* width: 30rem;
+    height: 60rem; */
+    min-height: 20%;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: space-around;
     align-items: left;
     color: #fff;
     margin-right: 800px;
@@ -86,15 +84,110 @@ body{
     height: 5vh;
     color: #fff;
     background-color: #961914;
+    border: none;
+    border-radius: 5px;
+
 }
 
-.zooov-stroke{
-    border: solid 2px green;
-    /* display: flex;
-    justify-content: left;
-    align-items: flex-start; */
-    margin-left: 155vh;
-    /* margin-top: 400px; */
+/* стили к надписи */
+
+/* .zooov-stroke{
+    position: relative;
+    display: flex;
+    border: solid 2px green; 
+    margin-left: 150vh;
+    margin-top: 1vh; 
+} */
+
+/* Блок №2 "Что такое BARF" */
+
+.what_is_barf{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 300px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
+
+.what_is_barf_tegs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    min-width: 100px;
+    height: auto;
+    padding: 30px;
+}
+
+.what_is_barf_tegs li{
+    color: #961914;
+}
+
+.what_is_barf_tegs span{
+    color: #000;
+}
+
+.adults-and-puppies{
+    position: relative;
+    margin-right: 120px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAD1D0;
+    height: 15rem;
+    background-image: url(/assets/img/icons/Vector-line.svg);
+    background-repeat: no-repeat;
+}
+
+/* Блок №3 "Для щенков и взрослых" */
+
+.adults-and-puppies ul{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50vh;
+    height: 15rem;
+    list-style-type: none;
+}
+
+.adults-and-puppies li{
+    position: relative;
+    height: 3rem;
+    margin-right: 2rem; 
+    margin-top: 0.5vh;
+}
+
+.meat{
+    list-style-image: url(/assets/img/icons/meat.svg);
+}
+
+.bone{
+     list-style-image: url(/assets/img/icons/bones.svg);
+}
+
+.vegetables{
+    list-style-image: url(/assets/img/icons/vegetables.svg);
+}
+
+.liver{
+    list-style-image: url(/assets/img/icons/liver.svg);
+}
+
+.offal{
+    list-style-image: url(/assets/img/icons/Vector.svg);
+}
+
+.seeds-nuts{
+    list-style-image: url(/assets/img/icons/seeds:nuts.svg);
+}
+
+.fruit{
+    list-style-image: url(/assets/img/icons/fruit.svg);
+}
+
+
 
 
